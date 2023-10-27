@@ -1,0 +1,8 @@
+.color{
+    background-color: gray;
+    position: fixed;
+    height: 100px;
+    width: 320px;
+    bottom: 20px;
+    right: 20px;
+}

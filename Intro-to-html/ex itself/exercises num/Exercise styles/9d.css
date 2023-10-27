@@ -1,0 +1,20 @@
+
+.description{
+  border: solid;
+  width: 225px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: rgb(33, 33, 33);;
+}
+
+.install{
+  font-weight: bold;
+  color: white;
+  font-family: arial;
+}
+
+.addition{
+  color: white;
+  font-family: arial;
+  font-size: 10px;
+}

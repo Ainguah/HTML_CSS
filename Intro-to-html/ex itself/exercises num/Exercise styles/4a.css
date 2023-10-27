@@ -1,0 +1,14 @@
+.uber{
+  background-color: black;
+  color: white;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.uber:hover{
+  opacity: 0.8;
+}

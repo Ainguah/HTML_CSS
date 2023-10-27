@@ -1,0 +1,26 @@
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.pink{
+  background-color: lightpink;
+  width: 100px;
+}
+
+.blue{
+  background-color: lightblue;
+  width: 200px;
+}
+
+.second-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row2{
+  color: white;
+  background-color: black;
+}

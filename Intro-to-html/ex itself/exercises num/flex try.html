@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .profile-picture{
+      border-style: solid;
+      border-width: 1px;
+      border-color: red;
+      object-fit: cover;
+      border-radius: 60px;
+      width: 50px;
+      height: 50px;
+    }
+
+    .follow{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+
+    p{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 0;
+    }
+
+    .tweet-button {
+      background-color: rgb(29, 155, 240);
+      color: white;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      padding : 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .image_text{
+     display: flex;
+    }
+
+    /* This is to move the button to the far right of the container /
+    .button{
+      padding: 30px;
+      padding-left: 100px;
+    }
+    /I added this padding to give space between the text and the image  */
+    .text{
+      padding-left: 20px;
+    }
+    .name{
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+    <div>
+      <!-- I introduced this new class to separate the class of the image and text from the button so that i will be able to set the padding of the button -->
+      <div class="image_text">
+      <div class="follow">
+        <img class="profile-picture" src="ex images/cat.jpg" alt="image">
+        <div class="text">
+          <p class="name">Oliver</p>
+          <p class="animal">the cat </p>
+          <p class="fame">Popular</p>
+        </div>
+        <button class="tweet-button">
+          Tweet
+        </button>
+      </div>
+      <!-- I introduced a new button class to help set the padding left for the button -->
+      <div class="button">
+       
+      </div>
+      </div>
+</body>
+</html>
